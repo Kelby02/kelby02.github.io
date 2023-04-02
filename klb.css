@@ -5,7 +5,8 @@ body {
 	font-family: 'lexend', sans-serif ;
 	font-size: 100%;
 	width: 80%;
-	align-self: center;
+	
+	
 	
 }
 
@@ -21,11 +22,11 @@ body {
     font-size: 1.2em;
 }
 .columns{
-	background-color: orange;
+	
 	
 }
 .column{
-	background-color: ghostwhite;
+	
 	
 	
 }
