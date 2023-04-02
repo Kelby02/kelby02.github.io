@@ -3,7 +3,10 @@
 
 body {
 	font-family: 'lexend', sans-serif ;
-	font-size: 100%
+	font-size: 100%;
+	width: 80%;
+	align-self: center;
+	
 }
 
 .title {
