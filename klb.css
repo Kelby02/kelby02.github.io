@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.blogText {
+	font-family: Helvetica, "Helvetica Neue Condensed Bold", "Helvetica Neue Thin";
+	font-style: normal;
+	font-size: xx-large;
+	font-variant: normal;
+	font-weight: lighter;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-right: 1.1%;
+}
+.blogText2 {
+	font-family: Helvetica, "Helvetica Neue Condensed Bold", "Helvetica Neue Thin";
+	font-variant: small-caps;
+	text-align: left;
+	font-style: normal;
+	font-size: large;
+	padding-top: 0px;
+	margin-top: -40px;
+	vertical-align: baseline;
+	margin-left: 80%;
+}
+.mmi1 {
+	left: 63%;
+}
