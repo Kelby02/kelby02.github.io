@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="klb.css">
 </head>
 <nav class="navbar is-transparent is-fixed-bottom is-spaced" role="navigation" aria-label="main navigation">
-	<div id="navbarBasicExample" class="navbar-menu">
+	<div id="navbar" class="navbar-menu">
 		<div class="navbar-start">
 			<a class="navbar-item" href="home.html">Home</a>
 			<a class="navbar-item" href="about.html">About</a>
@@ -17,21 +17,28 @@
 		<div class="navbar-end"></div>
 </nav>
 
-<body class="has-navbar-fixed-bottom">
-<h1  align="center">About</h1>
+<body class="has-navbar-fixed-bottom has">
+<h1 class="title" align="center">About</h1>
 
 <div class="columns">
-	<div class="column has-text-white has-background-black is"> Hello, I am Kelby. A third year Bachelor of Fahion Design student in Melbourne (Naarm), Australia. <br>
+	<div class="column ">
+		<div class="box hero is-fullheight"> Hello, I am Kelby. A third year Bachelor of Fahion Design student in Melbourne (Naarm), Australia. </div>
 	</div>
-	<div class="column">2</div>
-	<div class="column is-danger has-text-info-dark">
-		<div class="is-block"> Hosted on GitHub Pages.</div>
-	<br> 
-		<div class="is-block"> Made using Bulma, SWUP and GSAP.</div>
-	<br> 
-		<div class="is-block"> Lexend font family (Google Fonts)</div>
-		 
-		
+	<!--<div class="column"></div>-->
+	<div class="column">
+		<div class="box hero is-fullheight">
+			<div class="tile is-parent">
+		<div class="tile is-child box"> Hosted on GitHub Pages.</div>
+		<div class="tile is-child "> </div>
+		<div class="tile is-child box"> Lexend font family (Google Fonts)</div>
+		 	</div>
+		<div class="tile is-parent">
+		<div class="tile is-child "> </div>
+		<div class="tile is-child box"> Made using Bulma and SWUP</div>
+		<div class="tile is-child "> </div>
+		 	</div>
+			
+		</div>	
 	</div>
 </div>
 </body>
