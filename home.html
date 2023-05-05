@@ -55,11 +55,24 @@
 							<div class="tile is-child has-background-link">
 							<div class="panel-block">
 								<p class="control has-icons-left">
-								  <input class="input" type="text" placeholder="Search">
+								  <input class="input" id="myInput" onkeyup="myFunction()" type="text" placeholder="Search">
 								  <span class="icon is-left">
 									<i class="fas fa-search" aria-hidden="true"></i>
 								  </span>
 								</p> 
+								</div>
+								<div class="tile">
+									<ul id="myUL">
+								  <li><a class="has-text-success"  href="#">Adele</a></li>
+								  <li><a class="has-text-success" href="#">Agnes</a></li>
+
+								  <li><a class="has-text-success" href="#">Billy</a></li>
+								  <li><a class="has-text-success" href="#">Bob</a></li>
+
+								  <li><a class="has-text-success" href="#">Calvin</a></li>
+								  <li><a class="has-text-success" href="#">Christina</a></li>
+								  <li><a class="has-text-success" href="#">Cindy</a></li>
+								</ul>
 								</div>
 								<div class="tile is-child has-background-grey"> 
 									<a class="panel-block"> Introduction</a>
@@ -126,4 +139,28 @@
 	
 	
 </body>
+	
+	<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+	
+	
 </html>
