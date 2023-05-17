@@ -7,6 +7,12 @@ body {
 
 }
 
+.content-box {
+	overflow-x: 'scroll';
+	
+	
+}
+
 .opening-box {
 	height: 80%;
 	
