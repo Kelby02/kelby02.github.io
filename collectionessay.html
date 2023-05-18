@@ -23,11 +23,13 @@
 	
 	<header>
 	<section>
-		<div class="is-success"> 
-			<p> hello this is a test of the header and over all formating on this page template
-			</p>
-		</div>
-		
+		<nav class="breadcrumb has-bullet-separator" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li class="is-active"><a href="#" aria-current="page">Collection Essay</a></li>
+  </ul>
+</nav>
 		</section>
 	
 	</header>
@@ -37,11 +39,16 @@
 	
 	<div class="tile is-ancestor">
   <div class="tile is-vertical is-parent">
-    <div class="tile is-child box is-shadowless">
+    <div class="tile is-child box is-shadowless is-flex-shrink-5">
       <p class="title">Collection Essay</p>
     </div>
     <div class="tile is-child box">
+		<img ref="" alt=""> 
       <p class="title">Two</p>
+    </div>
+	  <div class="tile is-child box">
+		<img ref="" alt=""> 
+      <p class="title">three</p>
     </div>
   </div>
   <div class="tile is-parent is-8 is-flex">
@@ -54,6 +61,9 @@
 </p>
     </div>
   </div>
+		<div class="tile is-parent">
+		
+		</div>
 </div>
 		
 		<div class="tile is-danger">
