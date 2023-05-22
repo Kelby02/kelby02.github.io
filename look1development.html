@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>byKelby</title>
+</head>
+<body>
+
+
+<div class="columns">
+
+  <div class="column hero is-fullheight-with-navbar is-shadowless is-flex-shrink-5">
+    <progress id="progressbar" value="0" max="100"></progress>
+
+  </div>
+
+
+
+<nav class="navbar is-transparent is-fixed-bottom is-spaced is-active" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <div class="navbar-start">
+      <a class="navbar-item" href="home.html">Home</a>
+      <a class="navbar-item" href="about.html">About</a>
+      <a class="navbar-item" href="blog.html">Blog</a>
+    </div>
+  </div>
+  <div class="navbar-end"></div>
+</nav>
+
+<header>
+  <section>
+    <div class="is-success">
+      <p> hello this is a test of the header and over all formating on this page template
+      </p>
+    </div>
+
+  </section>
+
+</header>
+
+<section class="hero is-fullheight">
+
+
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-8">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child box is-shadowless">
+            <p> Blog Post title</p>
+          </article>
+          <article class="tile is-child box">
+            <!-- Put any content you want -->
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <!-- Put any content you want -->
+          </article>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <!-- Put any content you want -->
+        </article>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box">
+        <!-- Put any content you want -->
+      </article>
+    </div>
+  </div>
+
+  <div class="tile is-danger">
+    <p> text and that </p>
+  </div>
+
+
+</section>
+</div>
+</body>
+</html>
+
+
+<script type="text/javascript">
+  $(window).scroll(function () {
+    var s = $(window).scrollTop(),
+            d = $(document).height(),
+            c = $(window).height();
+    scrollPercent = (s / (d-c)) * 100;
+    var position = scrollPercent;
+
+    $("#progressbar").attr('value', position);
+
+  });
+</script>
