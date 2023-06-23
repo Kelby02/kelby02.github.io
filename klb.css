@@ -8,9 +8,14 @@ body {
 }
 
 .content-box {
-	overflow-x: 'scroll';
+	overflow-x: scroll;
 	
 	
+}
+
+.sidescroll{
+
+
 }
 
 .opening-box {
@@ -39,6 +44,8 @@ body {
 	
 	
 }
+
+
 
 .timeline {
     font-size: 1em;
