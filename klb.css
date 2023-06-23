@@ -7,6 +7,11 @@ body {
 
 }
 
+.lexed {
+    font-family: 'lexend', sans-serif ;
+    font-size: 100%;
+
+}
 .content-box {
 	overflow-x: scroll;
 	
