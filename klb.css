@@ -18,6 +18,14 @@ body {
 	
 }
 
+.vtext{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+
+
+
+}
+
 .sidescroll{
 
 
@@ -35,10 +43,25 @@ body {
     font-size: 2.5em; 
 }
 
+.supertitle {
+    font-family: 'lexend', sans-serif ;
+    font-weight: 400;
+    font-size: 5.5em;
+    position: relative;
+}
+
+.image-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
 .subtitle {
     font-family: 'lexend', sans-serif;
 	font-weight: 200;
     font-size: 1.2em;
+
 }
 .columns{
 	
