@@ -133,3 +133,16 @@ body {
     border-bottom-right-radius:0;
     border-bottom-left-radius:0;
 }
+
+
+/*Model viewer css items*/
+
+:not(:defined) > * {
+    display: none;
+}
+
+model-viewer {
+    width: 75rem;
+    height: 50rem;
+    margin: 0 auto;
+}
