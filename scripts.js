@@ -56,3 +56,4 @@ navLinks.forEach((link) => {
     swup.loadPage(this.getAttribute("href"));
   });
 });
+
