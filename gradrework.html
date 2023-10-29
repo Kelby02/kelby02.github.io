@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KLBbyKELBY</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="klb.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<nav class="navbar has-background-black is-fixed-bottom is-spaced is-active " role="navigation" aria-label="main navigation">
+    <div class="navbar-start">
+        <a class="navbar-item has-text-white" href="home.html">Home</a>
+        <a class="navbar-item has-text-white" href="about.html">About</a>
+        <a class="navbar-item has-text-white" href="blog.html">Graduate Collection</a>
+    </div>
+    <div class="navbar-end">
+        <a class="navbar-item has-text-white" href="meltedmen.html">Melted Men</a>
+        <a class="navbar-item has-text-white" href="boulder.html">Boulder</a>
+        <a class="navbar-item has-text-white" href="farfromlight.html">Far From The Light</a>
+    </div>
+</nav>
+<body class="has-navbar-fixed-bottom">
+
+<div class="section is-fullwidth">
+    <section class="hero is-fullheight">
+        <div class="columns">
+
+
+            <div class="column is-3">
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li> <a  href="#brief"  class="button tile"> The Brief </a></li>
+                        <li> <a  href="#storytelling" class="button tile"> Storytelling </a></li>
+                        <li> <a  href="#JeanMB" class="button tile"> Jean-Michel Basquiat </a></li>
+                        <li> <a  href="#intertextuality"  class="button tile"> Intertextuality </a></li>
+                        <li> <a  href="#Tenebrism"  class="button tile"> Tenebrism </a></li>
+                        <li> <a  href="#"  class="button tile"> Symbolism</a></li>
+                        <li><br></li>
+                        <li> <a  href="#moschino"  class="button tile"> Jeremy Scott's Moschino </a></li>
+                        <li> <a  href="#garethpugh"  class="button tile"> Gareth Pugh </a></li>
+                        <li><br></li>
+                        <li> <a  href="#research-evaluation"  class="button tile"> Research Method & Evaluation </a></li>
+                        <li> <a  href="#collectionconcept" class="button tile" > Collection Conceptualisation </a></li>
+                        <li><br></li>
+                        <li> <a  href="#l1me"  class="button tile"> Look 1 : Me </a></li>
+                        <li> <a  href="#l2you"  class="button tile"> Look 2 : You </a></li>
+                        <li> <a  href="#"  class="button tile"> Look 3 : Us </a></li>
+                        <li> <a  href="#"  class="button tile"> Look 4 : All </a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="column" style="width: auto">
+                <div>
+
+                    <div class="content" style=" " id="collectionconcept" >
+                        <div class="" >
+                            <iframe src="collectionconcept.html"
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" style="" id="Tenebrism">
+                        <div class="" >
+                            <iframe src="Tenebrism.html"
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" style=" " id="JeanMB">
+                        <div class="" >
+                            <iframe src="JeanMB.html"
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" style=" " id="storytelling">
+                        <div class="" >
+                            <iframe src="storytelling.html"
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" style=" " id="research-evaluation">
+                        <div class="">
+                            <iframe src="research-evaluation.html" width="100%" height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" style=" " id="moschino">
+                        <div class="">
+                            <iframe src="moschino.html"
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" style=" " id="garethpugh">
+                        <div class="">
+                            <iframe src="garethpugh.html"
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" style="" id="intertextuality">
+                        <div class="" >
+                            <iframe src="intertextuality.html"
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" id="brief">
+                        <div class="">
+                            <iframe src="gcbrief.html"
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" id="l1me">
+                        <div class="">
+                            <iframe src="look1development.html"
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" id="l2you">
+                        <div class="">
+                            <iframe src="look2development.html"
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                    <div class="content" id="">
+                        <div class="">
+                            <iframe src=""
+                                    width="100%"
+                                    height="696px"> </iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</div>
+</body>
+
+
+<script>
+    $(document).ready(function() {
+        $('div.content').hide();
+        $('ul a').click(function(e) {
+            e.preventDefault();
+            $('div.content').hide();
+            $($(this).attr('href')).fadeIn();
+        });
+    });
+</script>
+</html>
