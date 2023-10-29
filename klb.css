@@ -48,8 +48,7 @@ body {
 .supertitle {
     font-family: 'lexend', sans-serif ;
     font-weight: 400;
-    font-size: 5.5em;
-    position: relative;
+    font-size: 5.5rem;
 }
 
 .image-layer {
