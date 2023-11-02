@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400&display=swap');
+@font-face {
+    font-family: 'lexend';
+    src: url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+}
 
 
 body {
@@ -44,6 +47,14 @@ body {
 	font-weight: 400;
     font-size: 2.5em; 
 }
+
+
+.title2 {
+    font-family: 'lexend', sans-serif ;
+    font-weight: 400;
+    font-size: 200%;
+}
+
 
 .supertitle {
     font-family: 'lexend', sans-serif ;
