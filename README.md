@@ -1,8 +1,9 @@
 # kelby02.github.io
 
 
-Fashion Design student, Australia.
+Apparel Artist from Naarm, Australia.
 
-Portfolio Website, new to webdesign
+Bachelor's degree of Fashion Design
 
-Enjoy the content, if u want!
+Portfolio Website - New to webdesign
+
