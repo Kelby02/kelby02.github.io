@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="../klb.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
 </head>
 
 <body class="has-navbar-fixed-bottom">
@@ -86,7 +87,8 @@
 </div>
 
 <div class="container">
-    <model-viewer src="3d/GCL13D.glb" ar ar-modes="webxr scene-viewer quick-look"  poster="3d/GCL1poster.webp" shadow-intensity="1" camera-orbit="-0.9511deg 83.08deg 6.5m" field-of-view="22.33deg" min-camera-orbit="auto auto 6.5m" min-field-of-view="22.33deg" auto-rotate> </model-viewer>
+    
+    <model-viewer src="3d/GCL13D-v1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="GCL1poster.webp" shadow-intensity="1" camera-orbit="-361deg 86.55deg 6.683m" field-of-view="23.51deg"> </model-viewer>
 </div>
 
 <div class="container">
@@ -181,7 +183,6 @@
 
 </div>
 
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
 
 
 </body>
