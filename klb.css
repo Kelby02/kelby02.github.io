@@ -3,15 +3,9 @@
     src: url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 }
 
-
 body {
 	font-family: 'lexend', sans-serif ;
 	font-size: 100%;
-    background-image: url("images/GC/runwaygroupedit.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
 }
 
 .lexed {
@@ -22,8 +16,6 @@ body {
 .content-box {
 	overflow-x: scroll;
 }
-
-
 
 .vtext{
     writing-mode: vertical-lr;
@@ -50,7 +42,6 @@ body {
     font-weight: 400;
     font-size: 200%;
 }
-
 
 .supertitle {
     font-family: 'lexend', sans-serif ;
@@ -85,9 +76,34 @@ body {
     font-family: 'lexend', sans-serif ;
     font-weight: 400;
     font-size: 5em;
-    color: #f5d22c;
+    color: black;
     position: fixed;
     text-align: center;
+    text-decoration: none;
+}
+
+
+.hometitle .fiveletter{
+    display: none;
+}
+
+.hometitle:hover .threeletter{
+    display: none;
+}
+.hometitle:hover .fiveletter{
+    display: inline;
+}
+
+#homepagebody{
+    background-image: url("images/GC/runwaygroupedit.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+#homeheroheading{
+   
 }
 
 .sidebar {
@@ -102,6 +118,7 @@ body {
     cursor: pointer;
     display: block;
     background-color: black;
+    z-index: 1;
 }
 .sidebar:hover {
     right: 0;
