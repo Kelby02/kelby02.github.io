@@ -33,7 +33,8 @@ body {
 .title {
 	font-family: 'lexend', sans-serif ;
 	font-weight: 400;
-    font-size: 2.5em; 
+    font-size: 2.5em;
+    color: black;
 }
 
 
@@ -41,12 +42,16 @@ body {
     font-family: 'lexend', sans-serif ;
     font-weight: 400;
     font-size: 200%;
+    color: black;
+
 }
 
 .supertitle {
     font-family: 'lexend', sans-serif ;
     font-weight: 400;
     font-size: 5.5rem;
+    color: black;
+
 }
 
 .image-layer {
@@ -80,6 +85,7 @@ body {
     position: fixed;
     text-align: center;
     text-decoration: none;
+    z-index: 1;
 }
 
 
@@ -103,7 +109,10 @@ body {
 }
 
 #homeheroheading{
-   
+
+    font-family: 'lexend', sans-serif ;
+    font-weight: 400;
+    font-size: 3em;
 }
 
 .sidebar {
@@ -138,7 +147,6 @@ model-viewer {
 }
 
 footer{
-    position: absolute;
-    bottom: -200px;
+
 
 }
