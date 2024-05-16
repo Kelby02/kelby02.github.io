@@ -3,49 +3,38 @@
     src: url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 }
 
-
 body {
 	font-family: 'lexend', sans-serif ;
 	font-size: 100%;
-
 }
 
 .lexed {
     font-family: 'lexend', sans-serif ;
     font-size: 100%;
-
 }
+
 .content-box {
 	overflow-x: scroll;
-	
-	
 }
-
-
 
 .vtext{
     writing-mode: vertical-lr;
     text-orientation: upright;
-
-
-
 }
 
 .sidescroll{
-
 
 }
 
 .opening-box {
 	height: 80%;
-	
-	
 }
 
 .title {
 	font-family: 'lexend', sans-serif ;
 	font-weight: 400;
-    font-size: 2.5em; 
+    font-size: 2.5em;
+    color: black;
 }
 
 
@@ -53,13 +42,22 @@ body {
     font-family: 'lexend', sans-serif ;
     font-weight: 400;
     font-size: 200%;
-}
+    color: black;
 
+}
 
 .supertitle {
     font-family: 'lexend', sans-serif ;
     font-weight: 400;
     font-size: 5.5rem;
+    color: black;
+}
+
+.mmsupertitle {
+    font-family: 'lexend', sans-serif ;
+    font-weight: 400;
+    font-size: 5.5rem;
+    color: black;
 }
 
 .image-layer {
@@ -73,68 +71,86 @@ body {
     font-family: 'lexend', sans-serif;
     font-weight: 200;
     font-size: 1.2em;
-
-
+}
+#sidebar-body {
+    overflow-x: hidden;
+}
+#menutitle {
+    font-family: 'lexend', sans-serif ;
+    font-weight: 400;
+    font-size: 5em;
+    writing-mode: vertical-rl;
+    color: #f5d22c ;
+}
+.hometitle{
+    font-family: 'lexend', sans-serif ;
+    font-weight: 400;
+    font-size: 5em;
+    color: black;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
 }
 
 
-.timeline {
-    font-size: 1em;
-    line-height: 1.75em;
-    border-top: 3px solid;
-    border-image: linear-gradient(to right, #000000 0%, #fc5c3e 100%);
-    border-image-slice: 1;
-    border-width: 3px;
-    margin: 0;
-    padding: 100px;
-    counter-increment: section;
-    position: relative;
-    color:black; }
+.hometitle .fiveletter{
+    display: none;
+}
 
-/*//numbers*/
-/*:before {
-      content: counter(section);
-      position: absolute;
-      border-radius: 50%;
-      padding: 10px;
-      height: 1.25em;
-      width: 1.25em;
-      background-color:black;
-      text-align: center;
-      line-height: 1.25em;
-      color:white;
-      font-size: 1em;
-  }*/
+.hometitle:hover .threeletter{
+    display: none;
+}
+.hometitle:hover .fiveletter{
+    display: inline;
+}
 
-/*//odd number borders*/
-  .timeline:nth-child(odd) {
-      border-right: 3px solid;
-      padding-left: 0; }
+#homepagebody{
+    background-image: url("images/GC/runwaygroupedit.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
 
-:before {
-     left: 100%;
-     margin-left: -20px;
- }
+#homeheroheading{
 
-/*//even number borders*/
-  .timeline:nth-child(even) {
-      border-left: 3px solid;
-      padding-right: 0; }
+    font-family: 'lexend', sans-serif ;
+    font-weight: 400;
+    font-size: 3em;
+}
 
-:before {
-     right: 100%;
-     margin-right: -20px;
- }
+.sidebar {
+    position: fixed;
+    vertical-align: top;
+    right: -200px ;
+    max-height: 100vh;
+    height: 100vh;
+    overflow-y: auto;
+    width: 340px;
+    transition: all 0.1s;
+    cursor: pointer;
+    display: block;
+    background-color: black;
+    z-index: 1;
+}
+.sidebar:hover, .sidebar:focus, .sidebar:active {
+    right: 0;
+}
 
-/*//handle first and last*/
-  .timeline:first-child {
-      border-top: 0;
-      border-top-right-radius:0;
-      border-top-left-radius:0;
-  }
-.timeline:last-child {
-    border-bottom-right-radius:0;
-    border-bottom-left-radius:0;
+@media only screen and (max-width: 800px) {
+    .sidebar {
+        background-color: transparent;
+    }
+    .sidebar:hover {
+        background-color: black;
+    }
+    .mmsupertitle {
+        font-family: 'lexend', sans-serif ;
+        font-weight: 400;
+        font-size: 2em;
+        color: black;
+    }
 }
 
 
@@ -148,4 +164,9 @@ model-viewer {
     width: 75rem;
     height: 50rem;
     margin: 0 auto;
+}
+
+footer{
+
+
 }
